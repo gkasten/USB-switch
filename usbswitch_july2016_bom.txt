@@ -1,0 +1,26 @@
+Partlist exported from /usr/local/google/home/benjaminfair/eagle/usbswitch2/usbswitch_july2016.sch at 8/1/16 6:14 PM
+
+Part Value            Device           Package          Description                       MF MPN OC_FARNELL OC_NEWARK
+C1   4.7uF            C-USC1210K       C1210K           CAPACITOR, American symbol                                   
+C2   0.1uF            C-USC0805K       C0805K           CAPACITOR, American symbol                                   
+C3   0.1uF            C-USC0805K       C0805K           CAPACITOR, American symbol                                   
+C4   0.1uF            C-USC0805K       C0805K           CAPACITOR, American symbol                                   
+C5   0.1uF            C-USC0805K       C0805K           CAPACITOR, American symbol                                   
+IC1  MAX4906ELA       MAX4906ELA       UDFN10           High-/Full-Speed USB 2.0 Switches        unknown    unknown  
+JP1  MOLEX-47346-0001 MOLEX-47346-0001 MOLEX-47364-0001 MICRO USB B, BOTTOM MOUNT                                    
+JP2                   PN87520          PN87520          BERG USB connector                       unknown    unknown  
+JP3  MOLEX-47346-0001 MOLEX-47346-0001 MOLEX-47364-0001 MICRO USB B, BOTTOM MOUNT                                    
+JP4                   PINHD-1X5        1X05             PIN HEADER                                                   
+Q1   FDN336P          PMOSSOT23        SOT-23           MOS FET                                  unknown    unknown  
+Q2   FDN336P          PMOSSOT23        SOT-23           MOS FET                                  unknown    unknown  
+Q3   FDN335N          NMOSSTO23        SOT-23           MOS FET                                                      
+Q4   FDN335N          NMOSSTO23        SOT-23           MOS FET                                                      
+R1   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R2   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R3   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R4   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R6   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R7   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R8   10K              R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+R_ID 124K             R-US_R0805W      R0805W           RESISTOR, American symbol                                    
+U1   FT245RL          FT245RL          SSOP28DB         USB FIFO Controller                                          
