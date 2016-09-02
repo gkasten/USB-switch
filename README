@@ -1,0 +1,36 @@
+These scripts work with a USB switcher board to enable automated testing of an
+Android device in host mode. They were written as part of Benjamin Fair's
+(benjaminfair@) internship during summer 2016. For more information contact his
+host Glenn Kasten (gkasten@).
+
+For more information about the design of the USB switch, see here:
+https://docs.google.com/a/google.com/document/d/1NHc9BlqftayYEE4jjeVzt4W5vnkJZTGPdbi-HiVC2z0/edit?usp=sharing
+
+In order to use the scripts in this directory, you must install some
+dependencies. These dependencies vary based on which version of the board you
+wish to use. See below for more information.
+
+The scripts require a udev rules file to be installed which is included as
+"49-ftdi.rules". Install it to "/etc/udev/rules.d/49-ftdi.rules" then run
+"udevadm trigger" as root or reboot. The scripts can also be run as root instead
+of installing the rules file.
+
+The following kernel drivers/modules may interfere with access to the ftdi
+chip on the board and so may have to be unloaded/blacklisted:
+        ftdi_sio
+        usbserial
+
+usbswitch.py    Supports initial USB switch prototype with an Adafruit FT232H
+                GPIO chip. Requires Adafruit_GPIO library from
+                https://github.com/adafruit/Adafruit_Python_GPIO
+
+usbswitch2.py   Supports new single-board switch (red PCB). Only requires
+                libftdi1-dev which is in most distributions' repos. Could easily
+                be ported to C and statically compiled to eliminate all
+                dependencies.
+
+adb.sh          Simple wrapper for adb that handles switching to debug mode and
+                back to run mode after executing a command.
+
+full.sh         Example script that shows how to use the switch to run tests
+                using the WALT device and app in a fully automated way.
