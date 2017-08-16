@@ -3,9 +3,6 @@ Android device in host mode. They were written as part of Benjamin Fair's
 (benjaminfair@) internship during summer 2016. For more information contact his
 host Glenn Kasten (gkasten@).
 
-For more information about the design of the USB switch, see here:
-https://docs.google.com/a/google.com/document/d/1NHc9BlqftayYEE4jjeVzt4W5vnkJZTGPdbi-HiVC2z0/edit?usp=sharing
-
 In order to use the scripts in this directory, you must install some
 dependencies. These dependencies vary based on which version of the board you
 wish to use. See below for more information.
